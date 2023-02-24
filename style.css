@@ -1,0 +1,83 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+h1{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.yourResult{
+    width: 375px;
+    text-align: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.scoreContainer{ 
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    margin: 0 94px 0 94px;
+    width: 50%;
+
+}
+
+.score{
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+    font-size: 68px;
+    margin: 0;
+}
+
+.totalScore{
+    color: hsl(221, 100%, 96%);
+    margin: 0;
+}
+
+.summaryResult{
+    width: 375px;
+    padding: 32px;
+}
+
+.result{
+    float: right;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.resultBox{
+    border-radius: 1em;
+    margin-top: 1em;
+}
+
+.resultBox p{
+    margin: 0;
+}
+
+.icon{
+    vertical-align: middle;
+    margin: 1em;
+}
+
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.3);
+}
+
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.3)
+}
+
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.3)
+}
+
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.3)
+}
